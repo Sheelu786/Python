@@ -1,0 +1,24 @@
+# Sort, Sorted functions
+l1 = [1,3,5,7,9]
+l1.sort(reverse =  True)
+print(l1)
+
+l2 = [1,3,5,7,9]
+l3 = sorted(l2,reverse =  True)
+print(l3)
+
+l4 = (1,3,5,7,9)
+l4.sort()
+print(l4)
+
+di = {'name':'Corey','occupation':'Python Expert','os':'mac'}
+di1 = sorted(di)
+print(di1)
+
+l1 = [1,3,5,-7,-9]
+l1.sort(reverse =  True)
+print(l1)
+
+l2 = [1,3,5,-7,-9]
+l3 = sorted(l2,reverse =  True)
+print(l3)
